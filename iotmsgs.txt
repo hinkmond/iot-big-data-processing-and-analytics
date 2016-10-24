@@ -1,0 +1,57 @@
+[ 
+{
+  "guid": "0-ZZZ12345678",
+  "destination": " 0-AAA12345678",
+  "eventTime": "2015-08-07T23:27:28Z",
+   "payload": {
+     "format": "urn:example:sensor:temp",
+     "data": {
+       "temperature": "70.0"          
+     }
+   }
+},
+{
+  "guid": "0-ZZZ12345678",
+  "destination": " 0-AAA12345678",
+  "eventTime": "2015-08-07T23:27:28Z",
+   "payload": {
+     "format": "urn:example:sensor:temp",
+     "data": {
+       "temperature": "70.0"          
+     }
+   }
+},
+{
+  "guid": "0-ZZZ12345678",
+  "destination": " 0-AAA12345678",
+  "eventTime": "2015-08-07T23:27:28Z",
+   "payload": {
+     "format": "urn:example:sensor:temp",
+     "data": {
+       "temperature": "70.0"          
+     }
+   }
+},
+{
+  "guid": "0-ZZZ12345678",
+  "destination": " 0-AAA12345678",
+  "eventTime": "2015-08-07T23:27:28Z",
+   "payload": {
+     "format": "urn:example:sensor:temp",
+     "data": {
+       "temperature": "70.0"          
+     }
+   }
+},
+{
+  "guid": "0-ZZZ12345678",
+  "destination": " 0-AAA12345678",
+  "eventTime": "2015-08-07T23:27:28Z",
+   "payload": {
+     "format": "urn:example:sensor:temp",
+     "data": {
+       "temperature": "70.0"          
+     }
+   }
+}
+]
