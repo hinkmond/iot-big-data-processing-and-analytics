@@ -17,7 +17,7 @@
    "payload": {
      "format": "urn:example:sensor:temp",
      "data": {
-       "temperature": "70.0"          
+       "temperature": "75.0"          
      }
    }
 },
@@ -28,7 +28,7 @@
    "payload": {
      "format": "urn:example:sensor:temp",
      "data": {
-       "temperature": "70.0"          
+       "temperature": "63.2"          
      }
    }
 },
@@ -39,7 +39,7 @@
    "payload": {
      "format": "urn:example:sensor:temp",
      "data": {
-       "temperature": "70.0"          
+       "temperature": "81.1"          
      }
    }
 },
@@ -50,7 +50,7 @@
    "payload": {
      "format": "urn:example:sensor:temp",
      "data": {
-       "temperature": "70.0"          
+       "temperature": "100.5"          
      }
    }
 }
