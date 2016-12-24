@@ -1,0 +1,1402 @@
+[
+{
+  "guid": "0-ZZZ123456782A",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.568908Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1628884,
+       "latitude": 51.5015547,
+       "bodytemperature": 96.3,
+       "heartrate": 69
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782F",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.568957Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0976620,
+       "latitude": 51.5767308,
+       "bodytemperature": 98.7,
+       "heartrate": 40
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788N",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.568980Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1924767,
+       "latitude": 51.4666462,
+       "bodytemperature": 99.3,
+       "heartrate": 49
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782Y",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569000Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1455592,
+       "latitude": 51.5833190,
+       "bodytemperature": 96.9,
+       "heartrate": 96
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782X",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569019Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1149611,
+       "latitude": 51.4800829,
+       "bodytemperature": 97.0,
+       "heartrate": 73
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788V",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569039Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0448228,
+       "latitude": 51.4787616,
+       "bodytemperature": 96.1,
+       "heartrate": 33
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788K",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569058Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1801891,
+       "latitude": 51.4713733,
+       "bodytemperature": 99.4,
+       "heartrate": 71
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780J",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569077Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0675167,
+       "latitude": 51.4905230,
+       "bodytemperature": 95.2,
+       "heartrate": 126
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785Z",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569096Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1128576,
+       "latitude": 51.5035202,
+       "bodytemperature": 95.3,
+       "heartrate": 128
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781T",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569115Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1382616,
+       "latitude": 51.4821802,
+       "bodytemperature": 98.6,
+       "heartrate": 38
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782I",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569134Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0921710,
+       "latitude": 51.5584007,
+       "bodytemperature": 99.9,
+       "heartrate": 38
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787M",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569153Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1684884,
+       "latitude": 51.4989817,
+       "bodytemperature": 96.7,
+       "heartrate": 89
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780F",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569172Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.2050272,
+       "latitude": 51.4693919,
+       "bodytemperature": 97.6,
+       "heartrate": 143
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785B",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569220Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1362463,
+       "latitude": 51.4813502,
+       "bodytemperature": 98.5,
+       "heartrate": 153
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781J",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569241Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1745895,
+       "latitude": 51.5099383,
+       "bodytemperature": 95.2,
+       "heartrate": 32
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785O",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569261Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0634119,
+       "latitude": 51.5401902,
+       "bodytemperature": 97.2,
+       "heartrate": 155
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780U",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569280Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1144622,
+       "latitude": 51.5455345,
+       "bodytemperature": 98.2,
+       "heartrate": 50
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780L",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569309Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0893543,
+       "latitude": 51.5234783,
+       "bodytemperature": 97.9,
+       "heartrate": 94
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780K",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569328Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1342237,
+       "latitude": 51.4659924,
+       "bodytemperature": 95.8,
+       "heartrate": 63
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785S",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569348Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1756332,
+       "latitude": 51.4582961,
+       "bodytemperature": 99.7,
+       "heartrate": 35
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788I",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569367Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.2024673,
+       "latitude": 51.4723225,
+       "bodytemperature": 99.3,
+       "heartrate": 145
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787N",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569387Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1109153,
+       "latitude": 51.4956619,
+       "bodytemperature": 99.2,
+       "heartrate": 67
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785G",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569406Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1640561,
+       "latitude": 51.5157910,
+       "bodytemperature": 97.0,
+       "heartrate": 78
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780Z",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569426Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0952352,
+       "latitude": 51.5224939,
+       "bodytemperature": 97.7,
+       "heartrate": 55
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780U",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569445Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1653633,
+       "latitude": 51.4620836,
+       "bodytemperature": 96.1,
+       "heartrate": 41
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788C",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569477Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0458653,
+       "latitude": 51.5058603,
+       "bodytemperature": 95.9,
+       "heartrate": 157
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786R",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569501Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1661829,
+       "latitude": 51.4578656,
+       "bodytemperature": 99.9,
+       "heartrate": 71
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780L",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569520Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0814367,
+       "latitude": 51.5054693,
+       "bodytemperature": 99.6,
+       "heartrate": 88
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787R",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569540Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1283413,
+       "latitude": 51.5683564,
+       "bodytemperature": 96.7,
+       "heartrate": 74
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787E",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569559Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1533570,
+       "latitude": 51.5741839,
+       "bodytemperature": 96.3,
+       "heartrate": 70
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781F",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569579Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.2046998,
+       "latitude": 51.5165014,
+       "bodytemperature": 98.0,
+       "heartrate": 111
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785E",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569598Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1745648,
+       "latitude": 51.5417406,
+       "bodytemperature": 99.1,
+       "heartrate": 143
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788K",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569618Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0601718,
+       "latitude": 51.4685953,
+       "bodytemperature": 95.3,
+       "heartrate": 120
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783X",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569637Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1803835,
+       "latitude": 51.4545829,
+       "bodytemperature": 96.7,
+       "heartrate": 126
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782A",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569656Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1187439,
+       "latitude": 51.4920911,
+       "bodytemperature": 96.4,
+       "heartrate": 68
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782W",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569676Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0514034,
+       "latitude": 51.4902867,
+       "bodytemperature": 97.6,
+       "heartrate": 32
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780U",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569696Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1400239,
+       "latitude": 51.5052137,
+       "bodytemperature": 99.8,
+       "heartrate": 134
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785W",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569715Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1997427,
+       "latitude": 51.4979175,
+       "bodytemperature": 95.1,
+       "heartrate": 150
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782E",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569747Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0528864,
+       "latitude": 51.4725342,
+       "bodytemperature": 98.4,
+       "heartrate": 131
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784W",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569768Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0903333,
+       "latitude": 51.5178588,
+       "bodytemperature": 97.9,
+       "heartrate": 98
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781A",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569788Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1791688,
+       "latitude": 51.4688467,
+       "bodytemperature": 97.4,
+       "heartrate": 79
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783I",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569807Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0817033,
+       "latitude": 51.4649646,
+       "bodytemperature": 95.6,
+       "heartrate": 125
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788F",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569827Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1942650,
+       "latitude": 51.4711949,
+       "bodytemperature": 96.3,
+       "heartrate": 85
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786N",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569846Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1551652,
+       "latitude": 51.4984036,
+       "bodytemperature": 96.4,
+       "heartrate": 64
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784C",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569865Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0894218,
+       "latitude": 51.4765638,
+       "bodytemperature": 99.7,
+       "heartrate": 149
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783P",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569885Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1188800,
+       "latitude": 51.4581144,
+       "bodytemperature": 98.9,
+       "heartrate": 72
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784H",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569904Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1319500,
+       "latitude": 51.5698901,
+       "bodytemperature": 98.2,
+       "heartrate": 152
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787U",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569923Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1773311,
+       "latitude": 51.5630666,
+       "bodytemperature": 96.1,
+       "heartrate": 155
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784U",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569943Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1313177,
+       "latitude": 51.4172271,
+       "bodytemperature": 95.5,
+       "heartrate": 65
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783K",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569962Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1326054,
+       "latitude": 51.5505514,
+       "bodytemperature": 99.5,
+       "heartrate": 71
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784Z",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.569992Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0726265,
+       "latitude": 51.4565270,
+       "bodytemperature": 98.1,
+       "heartrate": 89
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780M",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570015Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1839392,
+       "latitude": 51.5106238,
+       "bodytemperature": 98.1,
+       "heartrate": 157
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783T",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570035Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.2127384,
+       "latitude": 51.5277961,
+       "bodytemperature": 98.5,
+       "heartrate": 70
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785V",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570055Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0616364,
+       "latitude": 51.4546197,
+       "bodytemperature": 98.0,
+       "heartrate": 47
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783J",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570074Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0591765,
+       "latitude": 51.5493785,
+       "bodytemperature": 98.1,
+       "heartrate": 49
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782T",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570094Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0955106,
+       "latitude": 51.4514065,
+       "bodytemperature": 97.5,
+       "heartrate": 31
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787K",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570113Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1604854,
+       "latitude": 51.4360550,
+       "bodytemperature": 99.4,
+       "heartrate": 134
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785I",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570133Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1863941,
+       "latitude": 51.4903352,
+       "bodytemperature": 98.0,
+       "heartrate": 69
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786M",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570152Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.2015316,
+       "latitude": 51.4603524,
+       "bodytemperature": 95.6,
+       "heartrate": 136
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781Y",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570172Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1256114,
+       "latitude": 51.5195660,
+       "bodytemperature": 96.9,
+       "heartrate": 48
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782S",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570191Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.2043001,
+       "latitude": 51.4722503,
+       "bodytemperature": 95.4,
+       "heartrate": 36
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783Y",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570211Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1556484,
+       "latitude": 51.4228316,
+       "bodytemperature": 96.3,
+       "heartrate": 66
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786M",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570230Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1760367,
+       "latitude": 51.5666062,
+       "bodytemperature": 99.9,
+       "heartrate": 69
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783W",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570261Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.2139440,
+       "latitude": 51.5061586,
+       "bodytemperature": 98.6,
+       "heartrate": 81
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783M",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570285Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1131091,
+       "latitude": 51.5874516,
+       "bodytemperature": 99.2,
+       "heartrate": 147
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781Q",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570305Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0629587,
+       "latitude": 51.4497274,
+       "bodytemperature": 95.7,
+       "heartrate": 66
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785P",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570324Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1997023,
+       "latitude": 51.5392809,
+       "bodytemperature": 98.4,
+       "heartrate": 52
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780H",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570344Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1937497,
+       "latitude": 51.5259993,
+       "bodytemperature": 99.1,
+       "heartrate": 134
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785F",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570363Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1959425,
+       "latitude": 51.5218489,
+       "bodytemperature": 98.7,
+       "heartrate": 133
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781B",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570382Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1378517,
+       "latitude": 51.5005834,
+       "bodytemperature": 95.5,
+       "heartrate": 47
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786W",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570402Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1286257,
+       "latitude": 51.4520559,
+       "bodytemperature": 98.4,
+       "heartrate": 97
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782D",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570421Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1572736,
+       "latitude": 51.4764554,
+       "bodytemperature": 97.5,
+       "heartrate": 125
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786R",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570440Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1745544,
+       "latitude": 51.5577489,
+       "bodytemperature": 98.7,
+       "heartrate": 33
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780W",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570460Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1688113,
+       "latitude": 51.4696408,
+       "bodytemperature": 98.4,
+       "heartrate": 106
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786U",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570479Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0603257,
+       "latitude": 51.5258380,
+       "bodytemperature": 95.4,
+       "heartrate": 116
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785W",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570498Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1406011,
+       "latitude": 51.5133841,
+       "bodytemperature": 99.2,
+       "heartrate": 133
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780S",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570531Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1956537,
+       "latitude": 51.4522471,
+       "bodytemperature": 95.2,
+       "heartrate": 157
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786X",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570551Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1226085,
+       "latitude": 51.4266484,
+       "bodytemperature": 98.0,
+       "heartrate": 137
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785N",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570571Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1810711,
+       "latitude": 51.4519452,
+       "bodytemperature": 96.8,
+       "heartrate": 37
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781K",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570590Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1336128,
+       "latitude": 51.4756410,
+       "bodytemperature": 97.1,
+       "heartrate": 65
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785I",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570610Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1140512,
+       "latitude": 51.4659373,
+       "bodytemperature": 97.6,
+       "heartrate": 87
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781Q",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570629Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1555878,
+       "latitude": 51.4769536,
+       "bodytemperature": 97.5,
+       "heartrate": 86
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781E",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570649Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1397521,
+       "latitude": 51.4261984,
+       "bodytemperature": 98.0,
+       "heartrate": 85
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785T",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570668Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0805331,
+       "latitude": 51.5475956,
+       "bodytemperature": 95.4,
+       "heartrate": 74
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788U",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570688Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0864240,
+       "latitude": 51.5624514,
+       "bodytemperature": 97.7,
+       "heartrate": 53
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781L",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570707Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1132666,
+       "latitude": 51.5524233,
+       "bodytemperature": 99.3,
+       "heartrate": 130
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785I",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570727Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1817980,
+       "latitude": 51.5418008,
+       "bodytemperature": 99.6,
+       "heartrate": 152
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785H",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570746Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1235635,
+       "latitude": 51.4260565,
+       "bodytemperature": 95.4,
+       "heartrate": 56
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787R",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570777Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1734516,
+       "latitude": 51.5741475,
+       "bodytemperature": 96.4,
+       "heartrate": 98
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787X",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570799Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1467199,
+       "latitude": 51.5384666,
+       "bodytemperature": 95.7,
+       "heartrate": 138
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783Y",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570818Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0984992,
+       "latitude": 51.5315718,
+       "bodytemperature": 96.4,
+       "heartrate": 159
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786F",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570838Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1567929,
+       "latitude": 51.4247070,
+       "bodytemperature": 97.7,
+       "heartrate": 149
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780I",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570857Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1833328,
+       "latitude": 51.4866324,
+       "bodytemperature": 95.5,
+       "heartrate": 59
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788S",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570876Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0874089,
+       "latitude": 51.4786938,
+       "bodytemperature": 98.4,
+       "heartrate": 150
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785U",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570896Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1608869,
+       "latitude": 51.4875047,
+       "bodytemperature": 97.4,
+       "heartrate": 126
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785H",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570915Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1723307,
+       "latitude": 51.5442321,
+       "bodytemperature": 96.6,
+       "heartrate": 58
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780Y",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570935Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0748187,
+       "latitude": 51.4578110,
+       "bodytemperature": 99.8,
+       "heartrate": 56
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785B",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570954Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.0719105,
+       "latitude": 51.4538598,
+       "bodytemperature": 95.1,
+       "heartrate": 105
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780H",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570974Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1530146,
+       "latitude": 51.5150842,
+       "bodytemperature": 97.7,
+       "heartrate": 75
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786E",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T14:49:07.570993Z", 
+  "payload": {
+     "format": "urn:project:sensor:temp_hr_gps", 
+     "data": {
+       "longitude": -0.1817197,
+       "latitude": 51.5431428,
+       "bodytemperature": 95.6,
+       "heartrate": 30
+     }
+   }
+}
+]

@@ -1,0 +1,161 @@
+
+[ec2-user@ip-172-31-22-49 final9use]$ cat iotsimulator.py 
+#!/usr/bin/python
+
+import sys
+import datetime
+import random
+import string
+
+# Set number of simulated messages to generate
+if len(sys.argv) > 1:
+  numMsgs = int(sys.argv[1])
+else:
+  numMsgs = 1
+
+# Fixed values
+guidStr = "0-ZZZ12345678"
+destinationStr = "0-AAA12345678"
+formatStr = "urn:example:sensor:vitalSigns"
+
+# Choice for random letter
+letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+iotmsg_header = """\
+{
+  "guid": "%s",
+  "destination": "%s", """
+
+iotmsg_eventTime = """\
+  "eventTime": "%sZ", """
+
+iotmsg_payload ="""\
+  "payload": {
+     "format": "%s", """
+
+iotmsg_data ="""\
+     "data": {
+       "heartRate": %d,
+       "bpSystolic": %d,
+       "bpDiastolic": %d
+     }
+   }
+}"""
+
+##### Generate JSON output:
+
+print "["
+
+dataElementDelimiter = ","
+for counter in range(0, numMsgs):
+
+  randInt = random.randrange(0, 9)
+  randLetter = random.choice(letters)
+  print iotmsg_header % (guidStr+str(randInt)+randLetter, destinationStr)
+
+  today = datetime.datetime.today()
+  datestr = today.isoformat()
+  print iotmsg_eventTime % (datestr)
+
+  print iotmsg_payload % (formatStr)
+
+  # Generate a random floating point number - heart rate from 60 to 90 (30->60 then add 30)
+  randHeartRate = int(random.uniform(30, 60) + 30)
+  randBpSystolic = int(random.uniform(60, 120) + 30)
+  randBpDiastolic = int(random.uniform(20, 80) + 30)
+  if counter == numMsgs - 1:
+    dataElementDelimiter = ""
+  print iotmsg_data % (randHeartRate, randBpSystolic, randBpDiastolic) + dataElementDelimiter
+
+print "]"
+
+------------------------------------------------------------
+
+[ec2-user@ip-172-31-22-49 final9use]$ cat kafka-direct-iot-sql.py
+
+"""
+ To run this on your local machine, you need to setup Kafka and create a producer first, see
+ http://kafka.apache.org/documentation.html#quickstart
+
+ and then run the example
+    `$ bin/spark-submit --jars \
+      external/kafka-assembly/target/scala-*/spark-streaming-kafka-assembly-*.jar \
+      kafka-direct-iot-sql.py \
+      localhost:9092 test`
+"""
+from __future__ import print_function
+
+import sys
+import re
+import json
+
+from pyspark import SparkContext
+from pyspark.sql import SQLContext
+# Need next for statisics computations
+from pyspark.sql.functions import *
+from pyspark.streaming import StreamingContext
+from pyspark.streaming.kafka import KafkaUtils
+from pyspark.streaming.kafka import OffsetRange
+from operator import add
+
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Usage: direct_kafka_wordcount.py <broker_list> <topic>", file=sys.stderr)
+        exit(-1)
+
+    sc = SparkContext(appName="PythonStreamingDirectKafkaWordCount")
+    ssc = StreamingContext(sc, 2)
+    sqlContext = SQLContext(sc)
+
+    brokers, topic = sys.argv[1:]
+    kvs = KafkaUtils.createDirectStream(ssc, [topic], {"metadata.broker.list": brokers})
+    jsonDStream = kvs.map(lambda (key, value): value)
+
+    # Define function to process RDDs of the json DStream to convert them
+    #   to DataFrame and run SQL queries
+    def process(time, rdd):
+        print("========= %s =========" % str(time))
+
+        try:
+            # Parse the one line JSON string from the DStream RDD
+            jsonString = rdd.map(lambda x: re.sub(r"\s+", "", x, flags=re.UNICODE)).reduce(add)
+            print("jsonString = %s" % str(jsonString))
+
+            # Convert the JSON string to an RDD
+            jsonRDDString = sc.parallelize([str(jsonString)])
+
+            # Convert the JSON RDD to Spark SQL Context
+            jsonRDD = sqlContext.read.json(jsonRDDString)
+
+            # Register the JSON SQL Context as a temporary SQL Table
+            print("JSON Schema\n=====")
+            jsonRDD.printSchema()
+            jsonRDD.registerTempTable("iotmsgsTable")
+
+            #############
+            # Processing and Analytics go here
+            #############
+
+            # Show the data fields that we have
+            df = sqlContext.sql("select payload.data.* from iotmsgsTable")
+            df.show()
+            # Summary and Descriptive Statistics
+            df.describe().show()
+
+            # For a sanity test, try the correlation with itself and it must be 1.0
+            print("Test correlation of heartRate to itself = %5.3f" % df.stat.corr('heartRate', 'heartRate'))
+            print("Correlation of heartRate to bpSystolic = %5.3f" % df.stat.corr('heartRate', 'bpSystolic'))
+            print("Correlation of heartRate to bpDiastolic = %5.3f" % df.stat.corr('heartRate', 'bpDiastolic'))
+            print("Correlation of bpSystolic to bpDiastolic = %5.3f" % df.stat.corr('bpSystolic', 'bpDiastolic'))
+
+            # Clean-up
+            sqlContext.dropTempTable("iotmsgsTable")
+        # Catch any exceptions
+        except:
+            pass
+
+    # Process each RDD of the DStream coming in from Kafka
+    jsonDStream.foreachRDD(process)
+ 
+    ssc.start()
+    ssc.awaitTermination()

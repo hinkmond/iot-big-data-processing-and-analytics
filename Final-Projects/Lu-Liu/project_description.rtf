@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Project Description\
+\
+part 1: \
+data simulation script: project_message_simulator.py \
+simulate IoT device data used for patients surveillance inside hospitals and in senior people\'92s home. \
+monitor and send four data columns: \
+latitude\
+longitude \
+body temperature\
+heart rate \
+\
+latitude and longitude are generated within a predefined center point and radius, so as to simulate an actual establishment\
+\
+temperature are randomly generated uniformly between 95-100 fahrenheit\
+heart rate are randomly generated uniformly between 30-160 bmp \
+\
+\
+part 2:\
+data stream processing script: project_kafka_iot_sql_process.py\
+the processing code gather the messages sent from kafka producer and generate 2 sql tables:\
+1. data from all messages \
+2. data that should be of concern: heart rate outside the range of (50~150)  and body temperature outside the range of (97~99)\
+}

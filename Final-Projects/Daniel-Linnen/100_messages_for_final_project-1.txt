@@ -1,0 +1,1602 @@
+[
+{
+  "guid": "0-ZZZ123456787F",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.629893Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 70.9, 
+       "temperature": 66.4,
+       "low": 1,
+       "range": 38.9,
+       "longitude": -115.20297,
+       "latitude": "81.3019098089N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786X",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.629949Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 82.1, 
+       "temperature": 69.5,
+       "low": 0,
+       "range": 200.6,
+       "longitude": -82.08699,
+       "latitude": "50.9339443416S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780T",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.629982Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 91.2, 
+       "temperature": 68.6,
+       "low": 0,
+       "range": 436.9,
+       "longitude": -4.74969,
+       "latitude": "41.4735726177N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784M",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630008Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 92.3, 
+       "temperature": 33.1,
+       "low": 0,
+       "range": 346.7,
+       "longitude": -70.86823,
+       "latitude": "77.0869447814N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786A",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630034Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 80.4, 
+       "temperature": 14.8,
+       "low": 0,
+       "range": 389.8,
+       "longitude": -169.15461,
+       "latitude": "61.5157316405S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783F",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630059Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 81.8, 
+       "temperature": 22.8,
+       "low": 1,
+       "range": 46.8,
+       "longitude": 178.16519,
+       "latitude": "75.2298168611S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787B",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630085Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 80.3, 
+       "temperature": 72.6,
+       "low": 1,
+       "range": 22.1,
+       "longitude": 49.55683,
+       "latitude": "15.5740178176N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781T",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630123Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 79.1, 
+       "temperature": 88.9,
+       "low": 1,
+       "range": 22.3,
+       "longitude": 32.36645,
+       "latitude": "52.5331631363N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781Y",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630147Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 69.9, 
+       "temperature": 87.6,
+       "low": 1,
+       "range": 14.7,
+       "longitude": 158.68168,
+       "latitude": "0.0792791335516N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788W",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630172Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 85.8, 
+       "temperature": 93.6,
+       "low": 0,
+       "range": 262.1,
+       "longitude": -170.53897,
+       "latitude": "2.71809126907N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783C",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630217Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 81.5, 
+       "temperature": 0.7,
+       "low": 0,
+       "range": 199.6,
+       "longitude": -130.52972,
+       "latitude": "83.1911946765S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787N",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630245Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 92.6, 
+       "temperature": 98.8,
+       "low": 1,
+       "range": 35.9,
+       "longitude": -131.26121,
+       "latitude": "12.0629004643S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780L",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630270Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 61.0, 
+       "temperature": 92.5,
+       "low": 1,
+       "range": 8.9,
+       "longitude": 14.16371,
+       "latitude": "16.3172843986N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787U",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630294Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 70.5, 
+       "temperature": 34.8,
+       "low": 1,
+       "range": 28.4,
+       "longitude": -114.22856,
+       "latitude": "20.8386969877S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783C",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630319Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 94.6, 
+       "temperature": 12.8,
+       "low": 0,
+       "range": 142.2,
+       "longitude": -95.95742,
+       "latitude": "63.2834862204N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780K",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630344Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 78.7, 
+       "temperature": 93.6,
+       "low": 0,
+       "range": 147.7,
+       "longitude": -135.41189,
+       "latitude": "33.2093303444N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784E",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630368Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 83.1, 
+       "temperature": 68.1,
+       "low": 0,
+       "range": 115.2,
+       "longitude": -150.13432,
+       "latitude": "16.1221684448N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784J",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630392Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 66.6, 
+       "temperature": 54.2,
+       "low": 1,
+       "range": 17.7,
+       "longitude": -74.41240,
+       "latitude": "88.7346743861N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784Z",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630417Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 96.1, 
+       "temperature": 32.8,
+       "low": 1,
+       "range": 26.5,
+       "longitude": 174.52924,
+       "latitude": "78.5128088438N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782N",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630455Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 74.0, 
+       "temperature": 42.0,
+       "low": 0,
+       "range": 251.9,
+       "longitude": 8.82628,
+       "latitude": "28.246036447N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781H",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630489Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 89.4, 
+       "temperature": 62.1,
+       "low": 0,
+       "range": 93.3,
+       "longitude": -153.73518,
+       "latitude": "14.161590107N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780F",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630516Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 60.3, 
+       "temperature": 71.4,
+       "low": 1,
+       "range": 16.9,
+       "longitude": -8.77212,
+       "latitude": "71.3868574435N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786P",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630541Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 73.8, 
+       "temperature": 3.8,
+       "low": 0,
+       "range": 194.1,
+       "longitude": -175.46374,
+       "latitude": "36.8161227209S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782I",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630566Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 72.2, 
+       "temperature": 64.3,
+       "low": 0,
+       "range": 52.7,
+       "longitude": -31.60588,
+       "latitude": "41.6068558347S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784J",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630591Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 74.1, 
+       "temperature": 29.3,
+       "low": 0,
+       "range": 165.8,
+       "longitude": 18.62536,
+       "latitude": "61.8061584991S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786S",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630617Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 79.3, 
+       "temperature": 29.1,
+       "low": 1,
+       "range": 19.8,
+       "longitude": 58.30689,
+       "latitude": "60.9833673479S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787H",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630655Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 87.7, 
+       "temperature": 4.1,
+       "low": 1,
+       "range": 45.4,
+       "longitude": -86.39185,
+       "latitude": "43.9251750765S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781K",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630685Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 96.4, 
+       "temperature": 8.9,
+       "low": 1,
+       "range": 20.9,
+       "longitude": -33.39162,
+       "latitude": "61.5374387288S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788G",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630725Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 69.8, 
+       "temperature": 22.7,
+       "low": 0,
+       "range": 433.0,
+       "longitude": -126.63337,
+       "latitude": "12.1247521465S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783W",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630752Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 93.6, 
+       "temperature": 44.7,
+       "low": 1,
+       "range": 6.1,
+       "longitude": -89.28569,
+       "latitude": "8.62467263065N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783S",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630792Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 79.1, 
+       "temperature": 47.3,
+       "low": 1,
+       "range": 5.2,
+       "longitude": 16.72894,
+       "latitude": "50.172792772N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781R",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630834Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 64.8, 
+       "temperature": 70.5,
+       "low": 1,
+       "range": 7.2,
+       "longitude": -153.31232,
+       "latitude": "36.5553561268S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783H",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630865Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 95.4, 
+       "temperature": 0.8,
+       "low": 0,
+       "range": 184.3,
+       "longitude": -54.21870,
+       "latitude": "77.1243240133N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780B",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630894Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 94.3, 
+       "temperature": 55.6,
+       "low": 1,
+       "range": 43.3,
+       "longitude": 135.40660,
+       "latitude": "42.1273946021S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785Y",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630920Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 67.4, 
+       "temperature": 28.9,
+       "low": 1,
+       "range": 32.1,
+       "longitude": -175.87602,
+       "latitude": "32.7524703244S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784H",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630948Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 61.1, 
+       "temperature": 41.5,
+       "low": 1,
+       "range": 8.9,
+       "longitude": -29.96593,
+       "latitude": "75.765108497S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786Y",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.630987Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 70.9, 
+       "temperature": 90.5,
+       "low": 1,
+       "range": 36.0,
+       "longitude": 83.49895,
+       "latitude": "16.5634041125S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787U",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631015Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 85.5, 
+       "temperature": 73.6,
+       "low": 0,
+       "range": 458.1,
+       "longitude": 158.04605,
+       "latitude": "80.3360675194N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781E",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631040Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 97.1, 
+       "temperature": 11.6,
+       "low": 1,
+       "range": 17.8,
+       "longitude": -93.76314,
+       "latitude": "20.2798309473N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782I",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631066Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 60.4, 
+       "temperature": 98.6,
+       "low": 1,
+       "range": 42.5,
+       "longitude": 170.54442,
+       "latitude": "54.26431996S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786W",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631115Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 71.4, 
+       "temperature": 72.6,
+       "low": 0,
+       "range": 53.0,
+       "longitude": 116.47702,
+       "latitude": "4.36634248732S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787L",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631142Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 60.3, 
+       "temperature": 87.9,
+       "low": 1,
+       "range": 44.4,
+       "longitude": 99.16693,
+       "latitude": "33.7368644935N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787H",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631167Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 75.8, 
+       "temperature": 85.6,
+       "low": 1,
+       "range": 23.9,
+       "longitude": 136.42801,
+       "latitude": "42.7148485587N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786D",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631192Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 76.1, 
+       "temperature": 35.5,
+       "low": 0,
+       "range": 78.8,
+       "longitude": 55.76407,
+       "latitude": "39.3479186529S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785B",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631217Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 72.1, 
+       "temperature": 44.4,
+       "low": 0,
+       "range": 358.6,
+       "longitude": -1.81320,
+       "latitude": "75.8968791534S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785G",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631242Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 88.7, 
+       "temperature": 21.1,
+       "low": 0,
+       "range": 109.9,
+       "longitude": -22.67751,
+       "latitude": "75.5338462565S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787O",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631267Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 97.9, 
+       "temperature": 76.5,
+       "low": 1,
+       "range": 38.4,
+       "longitude": -107.49764,
+       "latitude": "52.0918683882S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784X",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631292Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 87.6, 
+       "temperature": 92.7,
+       "low": 0,
+       "range": 367.6,
+       "longitude": 93.11580,
+       "latitude": "24.1034936364N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781U",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631317Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 72.6, 
+       "temperature": 10.3,
+       "low": 0,
+       "range": 59.6,
+       "longitude": -177.35611,
+       "latitude": "2.89605782822N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782Q",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631348Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 74.2, 
+       "temperature": 34.7,
+       "low": 0,
+       "range": 155.9,
+       "longitude": 149.90302,
+       "latitude": "14.6452769059S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788H",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631375Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 60.3, 
+       "temperature": 74.0,
+       "low": 1,
+       "range": 8.2,
+       "longitude": 117.40198,
+       "latitude": "77.6975329001N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780P",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631403Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 91.0, 
+       "temperature": 66.0,
+       "low": 0,
+       "range": 87.3,
+       "longitude": -76.71427,
+       "latitude": "28.7115205732S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788O",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631465Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 92.6, 
+       "temperature": 72.9,
+       "low": 0,
+       "range": 419.5,
+       "longitude": 94.62974,
+       "latitude": "47.3631368752N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784S",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631533Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 65.0, 
+       "temperature": 53.8,
+       "low": 1,
+       "range": 35.0,
+       "longitude": 158.68326,
+       "latitude": "21.0875002622N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788T",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631566Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 77.6, 
+       "temperature": 74.5,
+       "low": 1,
+       "range": 29.9,
+       "longitude": 101.95244,
+       "latitude": "77.0150719785S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784N",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631599Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 84.4, 
+       "temperature": 71.7,
+       "low": 0,
+       "range": 170.5,
+       "longitude": 176.79268,
+       "latitude": "28.4377099388S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783O",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631627Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 77.7, 
+       "temperature": 68.1,
+       "low": 0,
+       "range": 159.8,
+       "longitude": 6.22348,
+       "latitude": "33.2073423875N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788W",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631670Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 79.5, 
+       "temperature": 11.9,
+       "low": 0,
+       "range": 70.0,
+       "longitude": -45.21019,
+       "latitude": "25.132592766N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783D",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631700Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 61.2, 
+       "temperature": 40.5,
+       "low": 1,
+       "range": 34.8,
+       "longitude": -139.83190,
+       "latitude": "29.0861235915N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783Y",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631744Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 71.7, 
+       "temperature": 52.4,
+       "low": 1,
+       "range": 22.1,
+       "longitude": -66.45496,
+       "latitude": "70.0121925082N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782P",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631773Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 98.3, 
+       "temperature": 67.7,
+       "low": 1,
+       "range": 42.4,
+       "longitude": 121.50204,
+       "latitude": "4.29213144506S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787B",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631800Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 70.7, 
+       "temperature": 76.8,
+       "low": 1,
+       "range": 8.5,
+       "longitude": -6.92927,
+       "latitude": "57.6401885522S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788A",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631830Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 90.0, 
+       "temperature": 43.0,
+       "low": 0,
+       "range": 351.2,
+       "longitude": -79.25024,
+       "latitude": "87.0427900434N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787Z",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631858Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 66.7, 
+       "temperature": 72.5,
+       "low": 0,
+       "range": 395.2,
+       "longitude": 55.10582,
+       "latitude": "49.3479791429N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780E",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631888Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 87.1, 
+       "temperature": 96.0,
+       "low": 1,
+       "range": 20.1,
+       "longitude": -3.53172,
+       "latitude": "13.5916492329N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787G",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631915Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 99.4, 
+       "temperature": 2.4,
+       "low": 1,
+       "range": 49.4,
+       "longitude": -134.10740,
+       "latitude": "67.6782176634N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786O",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631942Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 91.4, 
+       "temperature": 47.6,
+       "low": 1,
+       "range": 31.2,
+       "longitude": -39.81125,
+       "latitude": "82.9739045017N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784Q",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631967Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 60.2, 
+       "temperature": 30.9,
+       "low": 1,
+       "range": 21.3,
+       "longitude": -120.88030,
+       "latitude": "1.30761222809S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788J",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.631993Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 92.9, 
+       "temperature": 76.4,
+       "low": 1,
+       "range": 48.7,
+       "longitude": -1.70322,
+       "latitude": "48.8434396518S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782A",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632028Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 81.5, 
+       "temperature": 12.8,
+       "low": 0,
+       "range": 255.7,
+       "longitude": 16.79864,
+       "latitude": "11.1959181314S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781G",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632058Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 66.9, 
+       "temperature": 70.2,
+       "low": 1,
+       "range": 35.3,
+       "longitude": -139.63788,
+       "latitude": "35.9041291668S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782S",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632097Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 79.7, 
+       "temperature": 22.7,
+       "low": 1,
+       "range": 19.5,
+       "longitude": 55.51737,
+       "latitude": "46.7758895547S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783N",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632126Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 75.1, 
+       "temperature": 90.3,
+       "low": 0,
+       "range": 280.4,
+       "longitude": 76.82230,
+       "latitude": "30.3312038848S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785V",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632152Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 99.1, 
+       "temperature": 89.3,
+       "low": 0,
+       "range": 337.3,
+       "longitude": -13.67008,
+       "latitude": "69.4358741003S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787Y",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632177Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 82.8, 
+       "temperature": 13.8,
+       "low": 0,
+       "range": 119.6,
+       "longitude": 125.27147,
+       "latitude": "58.6551114962N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785S",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632203Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 88.9, 
+       "temperature": 53.0,
+       "low": 1,
+       "range": 33.0,
+       "longitude": 97.35498,
+       "latitude": "46.8114031928N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783I",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632233Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 82.6, 
+       "temperature": 75.7,
+       "low": 0,
+       "range": 404.1,
+       "longitude": -58.60328,
+       "latitude": "21.6971161963S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788E",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632273Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 68.0, 
+       "temperature": 48.4,
+       "low": 1,
+       "range": 7.0,
+       "longitude": -159.55924,
+       "latitude": "22.3850267911N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786T",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632300Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 91.9, 
+       "temperature": 10.2,
+       "low": 1,
+       "range": 5.1,
+       "longitude": -3.19637,
+       "latitude": "5.91395973577S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786T",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632336Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 73.7, 
+       "temperature": 35.1,
+       "low": 1,
+       "range": 13.7,
+       "longitude": 161.17535,
+       "latitude": "16.1475821727S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780F",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632363Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 83.3, 
+       "temperature": 2.9,
+       "low": 0,
+       "range": 150.1,
+       "longitude": -0.83955,
+       "latitude": "22.366211178S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786L",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632390Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 91.1, 
+       "temperature": 40.3,
+       "low": 1,
+       "range": 11.8,
+       "longitude": -177.51078,
+       "latitude": "83.2531830769S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783D",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632415Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 91.5, 
+       "temperature": 72.4,
+       "low": 0,
+       "range": 183.8,
+       "longitude": 63.23749,
+       "latitude": "69.8893868417S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456780T",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632441Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 61.8, 
+       "temperature": 54.8,
+       "low": 0,
+       "range": 449.7,
+       "longitude": 53.36030,
+       "latitude": "35.7937208248S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786B",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632467Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 64.1, 
+       "temperature": 57.3,
+       "low": 1,
+       "range": 18.9,
+       "longitude": -50.09030,
+       "latitude": "11.1798032675N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785Y",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632493Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 62.4, 
+       "temperature": 73.8,
+       "low": 0,
+       "range": 81.6,
+       "longitude": 144.84896,
+       "latitude": "69.764686451S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784E",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632519Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 77.1, 
+       "temperature": 28.8,
+       "low": 1,
+       "range": 45.1,
+       "longitude": -58.91408,
+       "latitude": "51.1735593097N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785N",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632544Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 62.9, 
+       "temperature": 43.9,
+       "low": 0,
+       "range": 155.9,
+       "longitude": -4.13346,
+       "latitude": "18.3344962134S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786V",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632570Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 99.1, 
+       "temperature": 92.5,
+       "low": 1,
+       "range": 34.8,
+       "longitude": 157.88640,
+       "latitude": "41.1867340855S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782G",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632609Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 83.2, 
+       "temperature": 69.0,
+       "low": 1,
+       "range": 16.7,
+       "longitude": 108.13184,
+       "latitude": "22.2631315488S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782N",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632637Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 73.3, 
+       "temperature": 75.1,
+       "low": 1,
+       "range": 40.6,
+       "longitude": -146.28690,
+       "latitude": "70.3767699199S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784Z",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632677Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 71.7, 
+       "temperature": 20.8,
+       "low": 1,
+       "range": 22.0,
+       "longitude": -96.09086,
+       "latitude": "54.1327512423S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786S",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632705Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 79.3, 
+       "temperature": 55.8,
+       "low": 1,
+       "range": 17.0,
+       "longitude": -15.65454,
+       "latitude": "36.4395537412N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788S",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632731Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 82.1, 
+       "temperature": 90.8,
+       "low": 1,
+       "range": 11.1,
+       "longitude": -84.51320,
+       "latitude": "0.749940891317S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456788O",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632757Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 79.0, 
+       "temperature": 25.3,
+       "low": 1,
+       "range": 24.8,
+       "longitude": -81.10053,
+       "latitude": "14.8040088423S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783E",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632783Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 69.9, 
+       "temperature": 32.5,
+       "low": 0,
+       "range": 477.4,
+       "longitude": -19.42792,
+       "latitude": "81.6595513505N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783F",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632809Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 67.1, 
+       "temperature": 65.4,
+       "low": 1,
+       "range": 47.9,
+       "longitude": 61.95807,
+       "latitude": "82.7384662895S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784E",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632835Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 92.5, 
+       "temperature": 81.8,
+       "low": 1,
+       "range": 23.4,
+       "longitude": -118.79424,
+       "latitude": "32.6991616206S"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456786M",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632873Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 67.8, 
+       "temperature": 40.7,
+       "low": 0,
+       "range": 89.1,
+       "longitude": -62.79628,
+       "latitude": "18.4474810509N"
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784M",
+  "destination": "0-AAA12345678", 
+  "eventTime": "2016-11-22T22:18:57.632902Z", 
+  "payload": {
+     "format": "urn:com:company:sensor:humidity,temperature,longitude,latitude,lowFuel,fuelRange", 
+     "data": {
+       "humidity": 93.1, 
+       "temperature": 15.2,
+       "low": 0,
+       "range": 441.3,
+       "longitude": 61.87633,
+       "latitude": "8.68780625347N"
+     }
+   }
+}
+]

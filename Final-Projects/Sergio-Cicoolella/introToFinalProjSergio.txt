@@ -1,0 +1,5 @@
+Title - Demonstrate the reduction of voluminous streaming data to relevant statistics for enabling long-term data analysis.
+
+Purpose – This demonstration illustrates a mechanism to analyze data coming from a patient for long-term trends and correlation to cardiovascular improvement or degradation.  Cardiovascular improvement over time would help ascertain when the patient is stable enough to return home after some cardiac incident such as recovering from open-heart surgery or a heart attack.  In addition, this processed data allows finding correlation to heart rate and blood pressure as predictors if the patient incurs some life threatening cardiac event such as a heart attack or stroke while monitored.
+
+With each RDD compute the statistics for heart rate, systolic and diastolic blood pressure.  Other data could be included over time, for example, monitored blood content of oxygen and carbon dioxide.
