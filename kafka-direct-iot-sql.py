@@ -1,4 +1,3 @@
-
 """
  To run this on your local machine, you need to setup Kafka and create a producer first, see
  http://kafka.apache.org/documentation.html#quickstart
@@ -30,6 +29,12 @@ if __name__ == "__main__":
     sc = SparkContext(appName="PythonStreamingDirectKafkaWordCount")
     ssc = StreamingContext(sc, 2)
     sqlContext = SQLContext(sc)
+    sc.setLogLevel("WARN")
+
+    ##############
+    # Globals
+    ##############
+    globals()['maxTemp'] = sc.accumulator(0.0)
 
     brokers, topic = sys.argv[1:]
     kvs = KafkaUtils.createDirectStream(ssc, [topic], {"metadata.broker.list": brokers})
@@ -38,22 +43,26 @@ if __name__ == "__main__":
     # Define function to process RDDs of the json DStream to convert them
     #   to DataFrame and run SQL queries
     def process(time, rdd):
+        # Match local function variables to global variables
+        maxTemp = globals()['maxTemp']
+
         print("========= %s =========" % str(time))
+        print("rdd = %s" % str(rdd))
 
         try:
             # Parse the one line JSON string from the DStream RDD
-	    jsonString = rdd.map(lambda x: \
-		re.sub(r"\s+", "", x, flags=re.UNICODE)).reduce(add)
-	    print("jsonString = %s" % str(jsonString))
+            jsonString = rdd.map(lambda x: \
+                re.sub(r"\s+", "", x, flags=re.UNICODE)).reduce(add)
+            print("jsonString = %s" % str(jsonString))
 
             # Convert the JSON string to an RDD
             jsonRDDString = sc.parallelize([str(jsonString)])
 
             # Convert the JSON RDD to Spark SQL Context
-	    jsonRDD = sqlContext.read.json(jsonRDDString)
+            jsonRDD = sqlContext.read.json(jsonRDDString)
 
             # Register the JSON SQL Context as a temporary SQL Table
-	    print("JSON Schema\n=====")
+            print("JSON Schema\n=====")
             jsonRDD.printSchema()
             jsonRDD.registerTempTable("iotmsgsTable")
 
@@ -61,8 +70,16 @@ if __name__ == "__main__":
             # Processing and Analytics go here
             #############
 
+            sqlContext.sql("select payload.data.* from iotmsgsTable order by temperature desc").show(n=100)
+
             # Sort
             sqlContext.sql("select payload.data.temperature from iotmsgsTable order by temperature desc").show(n=100)
+
+            currentTemp = sqlContext.sql("select payload.data.temperature from iotmsgsTable order by temperature desc").collect()[0].temperature
+            print("Current temp = " + str(currentTemp))
+            if (currentTemp > maxTemp.value):
+              maxTemp.value = currentTemp
+            print("Max temp = " + str(maxTemp.value))
 
             # Search
             sqlContext.sql("select payload.data.temperature from iotmsgsTable where payload.data.temperature = 100.0").show(n=100)
@@ -71,13 +88,13 @@ if __name__ == "__main__":
             sqlContext.sql("select payload.data.temperature from iotmsgsTable where payload.data.temperature > 85").show(n=100)
 
             # Clean-up
-	    sqlContext.dropTempTable("iotmsgsTable")
+            sqlContext.dropTempTable("iotmsgsTable")
         # Catch any exceptions
         except:
             pass
 
     # Process each RDD of the DStream coming in from Kafka
     jsonDStream.foreachRDD(process)
- 
+
     ssc.start()
     ssc.awaitTermination()
