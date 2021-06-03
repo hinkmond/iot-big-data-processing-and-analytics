@@ -49,7 +49,7 @@ if __name__ == "__main__":
         print("========= %s =========" % str(time))
         print("rdd = %s" % str(rdd))
 
-       try:
+        try:
           if not rdd.isEmpty():
             # Parse the multiple JSON lines from the DStream RDD and trim any extra spaces
             jsonLinesRDD = rdd.map(lambda x: re.sub(r"\s+", "", x, flags=re.UNICODE)).reduce(add)
