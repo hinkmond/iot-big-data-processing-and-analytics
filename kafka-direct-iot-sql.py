@@ -49,17 +49,15 @@ if __name__ == "__main__":
         print("========= %s =========" % str(time))
         print("rdd = %s" % str(rdd))
 
-        try:
-            # Parse the one line JSON string from the DStream RDD
-            jsonString = rdd.map(lambda x: \
-                re.sub(r"\s+", "", x, flags=re.UNICODE)).reduce(add)
-            print("jsonString = %s" % str(jsonString))
+       try:
+          if not rdd.isEmpty():
+            # Parse the multiple JSON lines from the DStream RDD and trim any extra spaces
+            jsonLinesRDD = rdd.map(lambda x: re.sub(r"\s+", "", x, flags=re.UNICODE)).reduce(add)
+            print("jsonLinesRDD = %s" % str(jsonLinesRDD))
 
-            # Convert the JSON string to an RDD
-            jsonRDDString = sc.parallelize([str(jsonString)])
-
-            # Convert the JSON RDD to Spark SQL Context
-            jsonRDD = sqlContext.read.json(jsonRDDString)
+            # Convert RDD of the List of multiple JSON lines to Spark SQL Context by first
+            #    joining the list of mulitple JSON lines in a new RDD with a single JSON line
+            jsonRDD = sqlContext.read.json(sc.parallelize([jsonLinesRDD]))
 
             # Register the JSON SQL Context as a temporary SQL Table
             print("JSON Schema\n=====")
