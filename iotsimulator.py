@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import sys
 import datetime
@@ -40,26 +40,26 @@ iotmsg_data ="""\
 
 ##### Generate JSON output:
 
-print "["
+print('[')
 
 dataElementDelimiter = ","
 for counter in range(0, numMsgs):
 
   randInt = random.randrange(0, 9)
   randLetter = random.choice(letters)
-  print iotmsg_header % (guidStr+str(randInt)+randLetter, destinationStr)
+  print(iotmsg_header % (guidStr+str(randInt)+randLetter, destinationStr))
 
   today = datetime.datetime.today()
   datestr = today.isoformat()
-  print iotmsg_eventTime % (datestr)
+  print(iotmsg_eventTime % (datestr))
 
-  print iotmsg_payload % (formatStr)
+  print(iotmsg_payload % (formatStr))
 
   # Generate a random floating point number
   randTemp = random.uniform(0.0, 40.0) + 60.0
   if counter == numMsgs - 1:
     dataElementDelimiter = ""
-  print iotmsg_data % (randTemp) + dataElementDelimiter
+  print(iotmsg_data % (randTemp) + dataElementDelimiter)
 
-print "]"
+print(']')
 
