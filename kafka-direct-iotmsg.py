@@ -34,6 +34,15 @@ def print_row(row):
        humidityLine = re.sub(r"\"humidity\":", "", jsonLine).split(',')[0]
        print(humidityLine)
 
+def process_json(batch_df, batch_id):
+    json_raw_str = batch_df.rdd \
+      .map(lambda r: " ".join(r) + " ") \
+      .aggregate("", lambda a,b: a+b, lambda a,b: a+b)
+    json_line = re.sub(r"\s+", "", json_raw_str, flags=re.UNICODE)
+    print(json_line)
+    json_df = spark.read.json(sc.parallelize([json_line]))
+    json_df.printSchema()
+    json_df.show(truncate=False)
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
@@ -51,9 +60,10 @@ if __name__ == "__main__":
     spark = SparkSession.builder.master("local[*]") \
                     .appName('kafka-direct-iotmsg') \
                     .getOrCreate()
-    spark.sparkContext.setLogLevel("WARN")
+    sc = spark.sparkContext
+    sc.setLogLevel("ERROR")
 
-    print(">>> Starting spark...")
+    print(">>> Starting spark, bootstrap.servers: " + brokers + ", topic: " + topic + " ...")
     df = spark \
      .readStream \
      .format("kafka") \
@@ -62,13 +72,18 @@ if __name__ == "__main__":
      .option("startingOffsets", "latest") \
      .load()
 
-    print(">>> Starting DataFrame Processing")
+    print(">>> Starting DataFrame Select value Processing")
     df_to_strings = df.selectExpr("CAST(value AS STRING)")
 
-    print(">>> Starting DataWriteStream ")
+    print(">>> Starting DataWriteStream of Value column as Strings")
+    query1 = df_to_strings.writeStream \
+     .foreach(print_row) \
+     .start()
+
+    print(">>> Starting DataWriteStream of JSON lines in one batch ")
     query2 = df_to_strings.writeStream \
-     .foreach(print_row).start()
+     .foreachBatch(process_json) \
+     .start()
 
     spark.streams.awaitAnyTermination()
-
 
