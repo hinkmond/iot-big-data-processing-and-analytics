@@ -1,6 +1,7 @@
+CRONDARGS= -s -m off
 ## crontab
 
-*/2 * * * * bash -c $HOME/.bashrc > /dev/null 2>&1; ${HOME}/install/scripts/checkkafkaserver.sh >> ~/logs/checkkafkaserver.log 2>&1
+*/5 * * * * bash -c $HOME/.bashrc > /dev/null 2>&1; ${HOME}/install/scripts/checkkafkaserver.sh >> ~/logs/checkkafkaserver.log 2>&1
 
 */12 * * * * bash -c $HOME/.bashrc > /dev/null 2>&1; ${HOME}/install/scripts/cleanlogs.sh >> ~/logs/cleanlogs.log 2>&1
 
