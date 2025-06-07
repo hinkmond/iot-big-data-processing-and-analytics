@@ -11,7 +11,7 @@ else
   echo "kafka connection OK"
 fi
 
-kafka_processing="`cd ~/kafka_[0-9].*[0-9]/; bin/kafka-console-consumer.sh --timeout-ms 2500 --bootstrap-server 35.86.119.218:9092 --topic iotmsgs --from-beginning 2>&1 | grep -v ERROR | grep -v Timeout | grep Processed |  tr -s ' ' | cut -f5 -d' '`"
+kafka_processing="`cd ~/kafka_[0-9].*[0-9]/; bin/kafka-console-consumer.sh --timeout-ms 2500 --bootstrap-server 35.86.119.218:9092 --topic iotmsgs-amy --from-beginning 2>&1 | grep -v ERROR | grep -v Timeout | grep Processed |  tr -s ' ' | cut -f5 -d' '`"
 if [ "$kafka_processing" == "0" ]; then
   kafka_pid="`ps -ef | grep java | grep 'server.properties' | tr -s ' ' | tail -1 | cut -f2 -d' '`"
   if [ "$kafka_pid" != "" ]; then
