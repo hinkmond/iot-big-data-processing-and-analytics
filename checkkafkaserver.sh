@@ -32,7 +32,7 @@ cd ${HOME}/kafka_*-[0-9].[0-9].[0-9]
 if [ "$zookeeper_running" == "" ]; then
   KAFKA_HEAP_OPTS="-Xmx32M"   bin/zookeeper-server-start.sh config/zookeeper.properties >   /tmp/zookeeper.log 2>&1 &
   echo "Started zookeeper"
-  sleep 5 
+  sleep 7 
 else
   echo "zookeeper already running"
 fi
