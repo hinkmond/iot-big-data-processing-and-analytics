@@ -3,7 +3,7 @@
 function kafkachecktopic () { cd ~/kafka_[0-9].*[0-9]/; bin/kafka-console-consumer.sh --timeout-ms 5000 --bootstrap-server 35.86.119.218:9092 --topic $1 --from-beginning 2>&1 | grep -v ERROR | grep -v Timeout | nl; }
 
 
-alias kafkacheckserverconn="nc  -v -w 1 -i 1 35.86.119.218 9092 2>&1 | grep Connected"
+alias kafkacheckserverconn="nc  -v -w 1 -i 1 35.86.119.218 9092 2>&1 | grep -e Connected -e succeeded"
 alias kafkacheckmgs="cd ~/kafka_[0-9].*[0-9]/; bin/kafka-console-consumer.sh --timeout-ms 3000 --bootstrap-server 35.86.119.218:9092 --topic iotmsgs-amy --from-beginning 2>&1 | grep -v ERROR | grep -v Timeout | nl"
 alias kafkalisttopics="$HOME/kafka_*/bin/kafka-topics.sh --list  --bootstrap-server  35.86.119.218:9092"
 
